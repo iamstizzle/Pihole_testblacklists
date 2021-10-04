@@ -1,0 +1,49 @@
+# Title: Modified StevenBlack/hosts test to block social media sites in network
+#
+# Date: 03 October 2021 15:58:05 (UTC)
+# Generic social media block sites list
+#
+# ===============================================================
+
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+
+# Custom host records are listed here.
+
+
+# End of custom host records.
+# Start Generic social media block sites list
+
+#=====================================
+# Title: Top Social media sites to block
+# just a simple modification to http://stevenblack.com
+
+0.0.0.0 instagram.com
+0.0.0.0 facebook.com
+0.0.0.0 twitter.com
+0.0.0.0 whatsapp.com
+0.0.0.0 snapchat.com
+0.0.0.0 pinterest.com
+0.0.0.0 linkedin.com
+0.0.0.0 reddit.com
+
+
+# End
+# blacklist
+#
+# The contents of this list are a test for a custom ADlist for PI Hole. Modified version of 
+# Steven Black
+
+# 0.0.0.0 example.com
