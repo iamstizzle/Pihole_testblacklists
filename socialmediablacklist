@@ -42,11 +42,12 @@ ff02::3 ip6-allhosts
 ##
 ## {Some sites use a foo.api.yoursitethatyouwanttoblock.com}
 ## test to see if regex work in this format
+## also attempt without the 0.0.0.0
 
-0.0.0.0 (\.|^)facebook\.com$
-0.0.0.0 (\.|^)instagram\.com$
-0.0.0.0 (\.|^)pinterest\.com$
-0.0.0.0 (\.|^)reddit\.com$
+(\.|^)facebook\.com$
+(\.|^)instagram\.com$
+(\.|^)pinterest\.com$
+(\.|^)reddit\.com$
 
 # End
 # blacklist
